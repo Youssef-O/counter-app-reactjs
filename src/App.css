@@ -1,4 +1,10 @@
-.App {
+.resetCounterButtonIcon {
+    width: 25px;
+    height: 25px;
+}
 
+.counterButtonsIcon {
+    width: 40px;
+    height: 40px;
 }
 

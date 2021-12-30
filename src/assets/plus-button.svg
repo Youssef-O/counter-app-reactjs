@@ -1,0 +1,7 @@
+<svg id="plus_button" data-name="plus button" xmlns="http://www.w3.org/2000/svg" width="44" height="46" viewBox="0 0 44 46">
+  <g id="Rectangle_663" data-name="Rectangle 663" transform="translate(0 1)" fill="none" stroke="#babec1" stroke-width="3">
+    <rect width="44" height="44" rx="22" stroke="none"/>
+    <rect x="1.5" y="1.5" width="41" height="41" rx="20.5" fill="none"/>
+  </g>
+  <text id="_" data-name="+" transform="translate(12 36)" fill="#babec1" font-size="38" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+</svg>

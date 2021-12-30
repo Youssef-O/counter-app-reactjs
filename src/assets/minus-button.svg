@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="minus_button" data-name="minus button" transform="translate(0 -9)">
+    <g id="Rectangle_663" data-name="Rectangle 663" transform="translate(0 9)" fill="none" stroke="#babec1" stroke-width="3">
+      <rect width="44" height="44" rx="22" stroke="none"/>
+      <rect x="1.5" y="1.5" width="41" height="41" rx="20.5" fill="none"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M28.453,28.016v5.344l-12.922-.081V28Z" transform="translate(0 0.983)" fill="#babec1"/>
+  </g>
+</svg>
