@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -54,30 +55,44 @@ function App() {
     }
   }
 
+  var [count, setCount] = useState(0);
+
+  var increment = () => {
+    setCount(count + 1);
+  }
+  
+  var decrement = () => {
+    setCount(count - 1);
+  }
+
+  var resetCounter = () => {
+    setCount(0);
+  }
+
   return (
     <Box>
       <Grid container spacing={1} sx={styles.container}>   
         <Grid item xs={12}>
           <Paper elevation={3} sx={styles.counterDisplay}>
-            <IconButton sx={styles.resetCounterButton}>
+            <IconButton sx={styles.resetCounterButton} onClick={resetCounter}>
               <RedoButtonIcon className="resetCounterButtonIcon"/>
             </IconButton>
             <Typography variant="h1" component="h1" sx={styles.counterNumber}>
-                12
+                {count}
             </Typography>
           </Paper>
         </Grid>
         <Grid item container spacing={1}>
           <Grid item xs={6}>
               <Paper elevation={3} sx={styles.counterButtonsPaper}>
-                <Button sx={styles.counterButtons}>
+                <Button sx={styles.counterButtons} onClick={decrement}>
                   <MinusButtonIcon className="counterButtonsIcon"/>
                 </Button>
               </Paper>
           </Grid>
           <Grid item xs={6}>
             <Paper elevation={3} sx={styles.counterButtonsPaper}>
-              <Button sx={styles.counterButtons}>
+              <Button sx={styles.counterButtons} onClick={increment}>
                   <PlusButtonIcon className="counterButtonsIcon"/>
               </Button>
             </Paper>
